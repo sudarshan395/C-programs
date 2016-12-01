@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+	// your code goes here
+	int i,rem;
+	printf("enter the number");
+	scanf("%d",&i);
+	rem = i%2;
+	if(rem==0) {
+	    printf("\neven");
+	}
+	else {
+	    printf("odd");
+	}
+}
+
