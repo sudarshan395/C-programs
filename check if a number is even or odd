@@ -12,5 +12,6 @@ int main() {
 	else {
 	    printf("odd");
 	}
+	return 0;
 }
 
