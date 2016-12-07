@@ -17,7 +17,7 @@ reverse[length-i-1] = string[i];
 }
 for (i = 0; i < length; i++)
     {
-        if (reverse_string[i] == string[i])
+        if (reverse[i] == string[i])
             flag = 1;
         else
             flag = 0;
